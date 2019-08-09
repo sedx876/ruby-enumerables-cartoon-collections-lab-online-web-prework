@@ -1,5 +1,6 @@
 def roll_call_dwarves# code an argument here
-  ["Grumpy", "Happy", "Sleepy", "Bashful", "Sneezy", "Dopey", "Doc"].each_with_index { |word, index| puts "index: #{index} for #{word}" }
+  ["Grumpy", "Happy", "Sleepy", "Bashful", "Sneezy", "Dopey", "Doc"].each_with_index { |word, index| puts "#{index} #{word}" }
+
 
 end
 
