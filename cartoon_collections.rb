@@ -16,4 +16,3 @@ end
  arr.find { |x| cheeses.include?(x) }
  end
 
-end
