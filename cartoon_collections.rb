@@ -6,8 +6,8 @@ end
  ["earth", "wind", "fire", "water", "heart"].collect { |word| puts word.capitalize + "!" }
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+#def long_planeteer_calls# code an argument here
+  ["puff", "go", "two"].any? { |word| puts word.length < 4 }
 end
 
 def find_the_cheese# code an argument here
